@@ -3,11 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <title>Braveheart</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../src/styles/bootstrap.min.css">
     <link href="./main.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/fonts/glyphicons-halflings-regular.svg">
 </head>
-<link rel="icon" href="./favicon.ico" type="image/x-icon">
 <body>
-<div id="gameDiv"></div>
-    <script type="text/javascript" src="./app.bundle.js"></script>
+<div class="wrapper">
+    <header>
+        <nav>
+            <a href="#" class="description">Game</a>
+            <a href="#" class="description">Description</a>
+            <a href="#" class="controls-manual">Controls manual</a>
+            <a href="#" class="screenshots">Screenshots</a>
+            <a href="#" class="about us">About us</a>
+        </nav>
+    </header>
+    <div class="content">
+        <canvas id="canvas"></canvas>
+        <main>
+            <section class="description-section">
+            </section>
+            <section class="manual-section">
+                <img src="../assets/images/manual/manual.png">
+                <img src="../assets/images/manual/bonuses.png">
+            </section>
+            <section class="screenshots-section">
+                <div class="slider" id="main-slider">
+                    <div class="slider-wrapper">
+                        <div class="slide level1-1" id="slide-1">
+                            <img id="first-level-1" alt="First level" src="../assets/images/screenshots/firstLevel.png">
+                        </div>
+                        <div class="slide game-over" id="slide-2">
+                            <img id="gameover" alt="Game over" src="../assets/images/screenshots/gameover.png">
+                        </div>
+                        <div class="slide level1-2" id="slide-3">
+                            <img id="first-level-2" alt="First level"
+                                 src="../assets/images/screenshots/firstLevel_2.png"></div>
+                        <div class="slide level2" id="slide-4">
+                            <img id="second-level" alt="Second level"
+                                 src="../assets/images/screenshots/secondLevel.png">
+                        </div>
+                        <div class="slide level3" id="slide-5">
+                            <img id="third-level" alt="Third level" src="../assets/images/screenshots/thirdLevel.png">
+                        </div>
+                        <div class="slide level4" id="slide-6">
+                            <img id="bonuses-level" alt="Bonuses level"
+                                 src="../assets/images/screenshots/bossLevel.png">
+                        </div>
+                        <div class="slide win" id="slide-7">
+                            <img id="win" alt="Win" src="../assets/images/screenshots/win.png">
+                        </div>
+                    </div>
+                    <div class="btn-group slider-nav">
+                        <button type="button"
+                                class="btn  btn-info glyphicon glyphicon-arrow-left slider-previous"></button>
+                        <button type="button" class="btn btn-info glyphicon glyphicon-arrow-right slider-next"></button>
+                    </div>
+                </div>
+            </section>
+            <section class="about-section">
+            </section>
+        </main>
+    </div>
+    <footer></footer>
+</div>
+<script type="text/javascript" src="../src/slider/manager.js"></script>
+<script type="text/javascript" src="./app.bundle.js"></script>
 </body>
 </html>
