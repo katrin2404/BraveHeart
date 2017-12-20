@@ -2,99 +2,99 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Braveheart</title>
-  <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="../src/styles/bootstrap.min.css">
-  <link href="./main.css" rel="stylesheet">
-  <link href="../src/styles/layout.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Braveheart</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../src/styles/bootstrap.min.css">
+    <link href="./main.css" rel="stylesheet">
+    <link href="../src/styles/layout.css" rel="stylesheet">
 
 </head>
 
 <body>
-  <div class="wrapper">
+<div class="wrapper">
     <header>
-      <nav>
-        <a href="#description" class="description">Description</a>
-        <a href="#manual" class="controls-manual">Controls manual</a>
-        <a href="#screenshots" class="screenshots">Screenshots</a>
-        <a href="#" class="about us">About us</a>
-      </nav>
+        <nav>
+            <a href="#description" class="description">Description</a>
+            <a href="#manual" class="controls-manual">Controls manual</a>
+            <a href="#screenshots" class="screenshots">Screenshots</a>
+            <a href="#" class="about us">About us</a>
+        </nav>
     </header>
     <div class="content">
-      <div id="gameDiv" class="layout-row layout-align-center-center"></div>
-      <main>
-        <section id="description" class="description-section">
-        </section>
-        <section id="manual" class="layout-column layout-align-center-center manual-section">
-          <img src="../assets/images/manual/manual.png">
-          <img src="../assets/images/manual/bonuses.png">
-        </section>
-        <section id='screenshots' class="screenshots-section">
-          <div class="slider" id="slider main-slider">
-            <input type="radio" name="slider" id="slide1" checked>
-            <input type="radio" name="slider" id="slide2">
-            <input type="radio" name="slider" id="slide3">
-            <input type="radio" name="slider" id="slide4">
-            <input type="radio" name="slider" id="slide5">
-            <input type="radio" name="slider" id="slide6">
-            <input type="radio" name="slider" id="slide7">
+        <div id="gameDiv" class="layout-row layout-align-center-center"></div>
+        <main>
+            <section id="description" class="description-section">
+            </section>
+            <section id="manual" class="layout-row layout-align-center-center manual-section">
+                <div><img src="../assets/images/manual/manual.png"></div>
+                <div><img src="../assets/images/manual/bonuses.png"></div>
+            </section>
+            <section id='screenshots' class="screenshots-section">
+                <div class="slider" id="slider main-slider">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <input type="radio" name="slider" id="slide4">
+                    <input type="radio" name="slider" id="slide5">
+                    <input type="radio" name="slider" id="slide6">
+                    <input type="radio" name="slider" id="slide7">
 
-            <div id="slides">
-              <div id="overflow">
-                <div class="inner">
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="inner">
 
-                  <div class="page">
-                    <img alt="First level" src="../assets/images/screenshots/firstLevel.png">
-                  </div>
-                  <div class="page">
-                    <img alt="Game over" src="../assets/images/screenshots/gameover.png">
-                  </div>
-                  <div class="page">
-                    <img alt="First level" src="../assets/images/screenshots/firstLevel_2.png"></div>
-                  <div class="page">
-                    <img alt="Second level" src="../assets/images/screenshots/secondLevel.png">
-                  </div>
-                  <div class="page">
-                    <img alt="Third level" src="../assets/images/screenshots/thirdLevel.png">
-                  </div>
-                  <div class="page">
-                    <img alt="Boss level" src="../assets/images/screenshots/bossLevel.png">
-                  </div>
-                  <div class="page">
-                    <img alt="Win" src="../assets/images/screenshots/win.png">
-                  </div>
+                                <div class="page">
+                                    <img alt="First level" src="../assets/images/screenshots/firstLevel.png">
+                                </div>
+                                <div class="page">
+                                    <img alt="Game over" src="../assets/images/screenshots/gameover.png">
+                                </div>
+                                <div class="page">
+                                    <img alt="First level" src="../assets/images/screenshots/firstLevel_2.png"></div>
+                                <div class="page">
+                                    <img alt="Second level" src="../assets/images/screenshots/secondLevel.png">
+                                </div>
+                                <div class="page">
+                                    <img alt="Third level" src="../assets/images/screenshots/thirdLevel.png">
+                                </div>
+                                <div class="page">
+                                    <img alt="Boss level" src="../assets/images/screenshots/bossLevel.png">
+                                </div>
+                                <div class="page">
+                                    <img alt="Win" src="../assets/images/screenshots/win.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="controls">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                        <label for="slide5"></label>
+                        <label for="slide6"></label>
+                        <label for="slide7"></label>
+                    </div>
+                    <div id="active">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                        <label for="slide5"></label>
+                        <label for="slide6"></label>
+                        <label for="slide7"></label>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div id="controls">
-              <label for="slide1"></label>
-              <label for="slide2"></label>
-              <label for="slide3"></label>
-              <label for="slide4"></label>
-              <label for="slide5"></label>
-              <label for="slide6"></label>
-              <label for="slide7"></label>
-            </div>
-            <div id="active">
-              <label for="slide1"></label>
-              <label for="slide2"></label>
-              <label for="slide3"></label>
-              <label for="slide4"></label>
-              <label for="slide5"></label>
-              <label for="slide6"></label>
-              <label for="slide7"></label>
-            </div>
-          </div>
-        </section>
-        <section class="about-section">
-        </section>
-      </main>
+            </section>
+            <section class="about-section">
+            </section>
+        </main>
     </div>
     <footer></footer>
-  </div>
-  <!--<script type="text/javascript" src="../src/slider/manager.js"></script>-->
-  <script type="text/javascript" src="./app.bundle.js"></script>
+</div>
+<!--<script type="text/javascript" src="../src/slider/manager.js"></script>-->
+<script type="text/javascript" src="./app.bundle.js"></script>
 </body>
 
 </html>
