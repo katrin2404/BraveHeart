@@ -94,7 +94,7 @@ nav a {
 }
 
 a:hover {
-    color: #3c9eff;
+    color: #ff9f29;
     transform: scale(0.9);
     transition: all ease-in-out 0.3s;
     background: #fff1a7;
@@ -176,6 +176,7 @@ img {
 }
 
 body {
+    user-select: none;
     font-size: 200%;
     text-align: center;
 }
@@ -200,9 +201,8 @@ body {
 }
 
 #slides {
-    background: #fff;
     padding: 5px;
-    box-shadow: 2px 2px 4px #333, inset 1px 1px 0 #ddd;
+    box-shadow: 2px 2px 4px #FB9F00, inset 1px 1px 0 #FB9F00;
     border-radius: 5px;
 }
 
@@ -250,14 +250,14 @@ body {
 }
 
 #controls label:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 #slide1:checked ~ #controls label:nth-child(2), #slide2:checked ~ #controls label:nth-child(3), #slide3:checked ~ #controls label:nth-child(4), #slide4:checked ~ #controls label:nth-child(5), #slide5:checked ~ #controls label:nth-child(6), #slide6:checked ~ #controls label:nth-child(7), #slide7:checked ~ #controls label:nth-child(1) {
     width: 0;
     height: 0;
     border-top: 20px solid transparent;
-    border-left: 20px solid #333;
+    border-left: 20px solid rgb(270, 151, 6);
     border-bottom: 20px solid transparent;
     float: right;
     margin-right: -120px;
@@ -268,7 +268,7 @@ body {
     width: 0;
     height: 0;
     border-top: 20px solid transparent;
-    border-right: 20px solid #333;
+    border-right: 20px solid rgb(251, 151, 6);
     border-bottom: 20px solid transparent;
     float: left;
     margin-left: 60px;
@@ -311,16 +311,16 @@ body {
 #active label {
     width: 15px;
     height: 10px;
-    background: #ccc;
+    background: rgba(251, 151, 6, 0.4);
     display: inline-block;
 }
 
 #active label:hover {
-    background: #999;
+    background: rgb(251, 151, 6);
 }
 
 #slide1:checked ~ #active label:nth-child(1), #slide2:checked ~ #active label:nth-child(2), #slide3:checked ~ #active label:nth-child(3), #slide4:checked ~ #active label:nth-child(4), #slide5:checked ~ #active label:nth-child(5), #slide6:checked ~ #active label:nth-child(6), #slide7:checked ~ #active label:nth-child(7) {
-    background: #333;
+    background: rgb(251, 151, 6);
 }
 
 #slides .inner {
