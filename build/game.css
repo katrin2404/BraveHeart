@@ -1,11 +1,19 @@
-/* #gameDiv {
+body {
+  background-image: url("../assets/images/backgrounds/siteBackground.png");
+  background-size: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gameDiv {
     height: 640px;
-    margin-top: 80px;
+    margin-top: 15px;
 }
 
 canvas {
-    margin-top: 60px;
     max-width: 1120px;
     height: 640px;
     font-family: 'FrakturInk';
-} */
+    border-radius: 10px;  
+}
