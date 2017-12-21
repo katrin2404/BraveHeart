@@ -9,11 +9,12 @@ body {
 #gameDiv {
     height: 640px;
     margin-top: 15px;
+    border-radius: 10px;
 }
 
 canvas {
     max-width: 1120px;
     height: 640px;
     font-family: 'FrakturInk';
-    border-radius: 10px;  
+    border-radius: 10px;
 }
