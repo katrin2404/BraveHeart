@@ -1,4 +1,13 @@
+
+@font-face {
+    font-family: "FrakturInk";
+    src: url(./ed4309a34b194077a45c8778fe7f50e4.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 body {
+  font-family: "FrakturInk";
   background-image: url("../assets/images/backgrounds/siteBackground.png");
   background-size: auto;
   display: flex;
@@ -7,12 +16,14 @@ body {
 }
 
 #gameDiv {
+    font-family: "FrakturInk";
     height: 640px;
     margin-top: 15px;
     border-radius: 10px;
 }
 
 canvas {
+    font-family: "FrakturInk";
     max-width: 1120px;
     height: 640px;
     font-family: 'FrakturInk';
