@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../src/styles/bootstrap.min.css">
     <link href="./main.css" rel="stylesheet">
     <link href="../src/styles/layout.css" rel="stylesheet">
+    <script src="script.js"></script>
 
 </head>
 
@@ -16,21 +17,29 @@
     <header>
         <nav>
             <a href="#description" class="description">Description</a>
-            <a href="#manual" class="controls-manual">Controls manual</a>
+            <a href="#controlls" class="controls-manual">Controls manual</a>
             <a href="#screenshots" class="screenshots">Screenshots</a>
-            <a href="#" class="about us">About us</a>
+            <!-- <a href="#" class="about us">About us</a> -->
         </nav>
     </header>
     <div class="content">
-        <div id="gameDiv" class="layout-row layout-align-center-center"></div>
+      <h1>Braveheart</h1>
         <main>
             <section id="description" class="description-section">
+              <h2>History</h2>
+              <p>A long time ago, so long ago that these days few people remember, there was one great Kingdom. Everything in it was good: people, animals and even nature. People worked, raised children and enjoyed life. However, in one terrible moment came the dark times. In the Kingdom there was a dark knight is a monster who robbed, killed and plundered the inhabitants of the Kingdom. Many knights and heroes wanted to impress him and earn fame, honor and the favor of kings, but none have succeeded. And then one day, the dark knight kidnapped the Princess daughter of the king. It was a terrible grief for the king, because it was his only and favorite daughter.</p>
+              <p>However, the Princess already have a lover, which, even in the face of fear, can't cope with the loss of his beloved. He goes on a long journey to meet the danger. On his way he encountered terrible monsters, ghosts and traps, but nothing stops him!</p>
             </section>
+            <section class="gameLink">
+            <a href="game.html" class="startGame"><img src="../assets/images/playbutton.png" alt=""></a>
+            </section>
+            <h2 id="controlls">Controls</h2>
             <section id="manual" class="layout-row layout-align-center-center manual-section">
                 <div><img src="../assets/images/manual/manual.png"></div>
                 <div><img src="../assets/images/manual/bonuses1.png"></div>
             </section>
-            <section id='screenshots' class="screenshots-section">
+            <h2 id='screenshots'>Screenshots</h2>
+            <section class="screenshots-section">
                 <div class="slider" id="slider main-slider">
                     <input type="radio" name="slider" id="slide1" checked>
                     <input type="radio" name="slider" id="slide2">
@@ -93,8 +102,7 @@
     </div>
     <footer></footer>
 </div>
-<!--<script type="text/javascript" src="../src/slider/manager.js"></script>-->
-<script type="text/javascript" src="./app.bundle.js"></script>
+<script type="text/javascript" src="../src/slider/manager.js"></script>
 </body>
 
 </html>
